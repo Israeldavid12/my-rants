@@ -2,13 +2,14 @@ import img_teste from '../assets/img_teste.jpg'
 import { useState, useRef } from 'react'
 
 
+
 function Post() {
     return (
         <div className='flex flex-col justify-items-start gap-3  p-2 mt-4 text-sm'>
             <hr className="border-[silver]" />
             <div className='flex gap-3 items-center  text-sm'>
                 <img
-                    src={img_teste}
+                    src={img_teste}   
                     alt="Perfil"
                     className="w-8 h-8 rounded-full object-cover"
                 />

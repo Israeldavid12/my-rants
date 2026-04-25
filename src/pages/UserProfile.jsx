@@ -2,7 +2,8 @@ import { useParams } from "react-router-dom"
 import img_teste from '../assets/img_teste.jpg'
 
 export default function UserProfile() {
-    const { id } = useParams();
+    const { id } = useParams(); 
+    
     return (
         <div className="flex gap-2 p-2 items-center text-white text-sm justify-center py-4">
             <i class="bi bi-arrow-left cursor-pointer " onClick={() => window.history.back()}></i>
